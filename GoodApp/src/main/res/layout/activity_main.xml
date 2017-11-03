@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"   >
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:onClick="scan"
+    android:text="扫描二维码" />
+
+<TextView
+    android:id="@+id/tv_ruselt"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="21sp" />
+
+<EditText
+    android:id="@+id/et_text"
+    android:hint="请输入内容"
+    android:layout_marginTop="88dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:onClick="make"
+    android:text="生成二维码" />
+
+<CheckBox
+    android:id="@+id/is_logo"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="check" />
+
+<ImageView
+    android:id="@+id/img"
+    android:layout_gravity="center"
+    android:layout_marginTop="28dp"
+    android:layout_height="288dp"
+    android:layout_width="288dp"
+    android:src="@drawable/my_avatar" />
+</LinearLayout>
